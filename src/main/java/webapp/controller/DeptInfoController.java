@@ -23,14 +23,14 @@ import webapp.service.DeptInfoService;
  * Servlet implementation class DeptController
  */
 @WebServlet("/dept/info")
-public class DeptController extends HttpServlet {
+public class DeptInfoController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static Log log = LogFactory.getLog(Dept.class);
 
     /**
      * Default constructor. 
      */
-    public DeptController() {
+    public DeptInfoController() {
     	super();
         // TODO Auto-generated constructor stub
     }
